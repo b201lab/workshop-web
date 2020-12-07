@@ -5,3 +5,17 @@
 .big-font {
   font-size: larger;
 }
+
+.before-line::before {
+  content: "";
+  display: inline-block;
+  width: 8vw;
+  height: 5px;
+  background-color: white;
+  vertical-align: middle;
+}
+
+.before-line span {
+  padding: 0 10px;
+  position: relative;
+}
