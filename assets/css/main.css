@@ -26,13 +26,26 @@
 .before-line::before {
   content: "";
   display: inline-block;
-  width: 6vw;
+  width: 60px;
   height: 1px;
   background-color: white;
   vertical-align: middle;
 }
 
 .before-line span {
-  padding: 0 10px;
+  padding-left: 10px;
   position: relative;
+}
+
+.after-line::after {
+  content: "";
+  display: inline-block;
+  width: 50px;
+  height: 2px;
+  background-color: #ffc107;
+  vertical-align: middle;
+}
+
+.after-line span {
+  padding-right: 5px;
 }
