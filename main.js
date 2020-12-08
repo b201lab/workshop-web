@@ -10,7 +10,7 @@ function startup() {
     .get(
       `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&lang=id&units=metric&appid=${api_key}`
     )
-    .then((response) => {
+    .then(function (response) {
       console.log(response.data);
 
       const weather = response.data.weather;
