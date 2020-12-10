@@ -1,6 +1,5 @@
 .main-section {
   min-height: 100vh;
-  background-color: #272c30;
 }
 
 .main-background {
@@ -9,18 +8,6 @@
 
 .content-fills {
   max-width: 1024px;
-}
-
-@media (min-width: 760px) {
-  .main-section {
-    min-height: 60vh;
-  }
-}
-
-@media (min-width: 1024px) {
-  .main-section {
-    min-height: 70vh;
-  }
 }
 
 .big-font {
@@ -41,7 +28,8 @@
   position: relative;
 }
 
-.after-line::after {
+.after-line::after,
+.talk-line::after {
   content: "";
   display: inline-block;
   width: 50px;
@@ -50,7 +38,14 @@
   vertical-align: middle;
 }
 
-.after-line span {
+.talk-line::after {
+  background-color: white;
+  vertical-align: bottom;
+  width: 100px;
+}
+
+.after-line span,
+.talk-line span {
   padding-right: 5px;
 }
 
@@ -90,10 +85,23 @@
 }
 
 @media (min-width: 760px) {
+  .main-section {
+    min-height: 60vh;
+  }
   .carousel-box {
-    height: 300px;
+    height: 500px;
   }
   .carousel-img {
     width: 25%;
+  }
+
+  .talk-line::after {
+    width: 400px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-section {
+    min-height: 70vh;
   }
 }
