@@ -80,3 +80,20 @@
   border: 1px solid #272c30;
   border-radius: 25px;
 }
+
+.carousel-box {
+  height: 450px;
+}
+
+.carousel-img {
+  width: 50%;
+}
+
+@media (min-width: 760px) {
+  .carousel-box {
+    height: 300px;
+  }
+  .carousel-img {
+    width: 25%;
+  }
+}
