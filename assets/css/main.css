@@ -59,3 +59,10 @@
   background-color: #ffc107;
   vertical-align: middle;
 }
+
+.stats-box {
+  width: 40vw;
+  height: 40vw;
+  margin: 20px;
+  background-color: #272c30;
+}
