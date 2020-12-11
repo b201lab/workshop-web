@@ -1,8 +1,10 @@
 # Pembuatan Website Menggunakan HTML & Bootstrap4
 
-HTML sebagai salah satu cara dasar dan paling mudah yang digunakan untuk membuat suatu website. Bahkan apabila kita ingin menggunakan framework - framework front end seperti (Vue)[https://vuejs.org], (ReactJS)[https://reactjs.org], HTML dan CSS masih menjadi bagian yang sangat krusial dalam pembuatan website.
+HTML sebagai salah satu cara dasar dan paling mudah yang digunakan untuk membuat suatu website. Bahkan apabila kita ingin menggunakan framework - framework front end seperti [Vue](https://vuejs.org) dan [ReactJS](https://reactjs.org), HTML dan CSS masih menjadi bagian yang sangat krusial dalam pembuatan website.
 
-Repository ini berisi source code lengkap hasil implementasi desain portofolio. Tujuan awal dari pembuatan repository ini adalah sebagai media pelengkap untuk workshop dengan tema "Membuat Web Portofolio dengan Framework Bootstrap" dari devgroup multimedia dan apps yang dilaksanakan pada tanggal 11 Desember 2020. Silahkan gunakan template ini dan modifikasi sesuka hati.
+Repository ini berisi source code lengkap hasil implementasi desain portofolio. Tujuan awal dari pembuatan repository ini adalah sebagai media pelengkap untuk workshop dengan tema "Membuat Web Portofolio dengan Framework Bootstrap" dari devgroup Multimedia dan Apps yang dilaksanakan pada tanggal 11 Desember 2020. 
+
+Silahkan gunakan template ini dan modifikasi sesuka hati.
 
 # File
 
