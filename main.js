@@ -1,6 +1,9 @@
 function startup() {
-  const api_key = "3ee7bfd02355e005675bfd9fd060e70a";
+  // ganti apiKey dengan key yang didapat dari dashboard openweather
+  const api_key = apiKey;
+  // ganti latitude dengan latitude lokasi sembarang
   const lat = latitude;
+  // ganti longitude dengan lotitude lokasi sembarang
   const lon = longitude;
 
   const cuaca = document.getElementById("cuaca");
