@@ -1,7 +1,7 @@
 function startup() {
   const api_key = "3ee7bfd02355e005675bfd9fd060e70a";
-  const lat = -7.282356;
-  const lon = 112.7927366;
+  const lat = latitude;
+  const lon = longitude;
 
   const cuaca = document.getElementById("cuaca");
   const suhu = document.getElementById("suhu");
