@@ -6,6 +6,8 @@ Repository ini berisi source code lengkap hasil implementasi desain portofolio. 
 
 Silahkan gunakan template ini dan modifikasi sesuka hati.
 
+Demo : [link](https://b201lab.github.io/workshop-web/)
+
 # File
 
 ### index.html
